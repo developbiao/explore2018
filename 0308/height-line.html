@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>height line demo</title>
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  p.demo{
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    text-align: center;
+    background-color: silver;
+  }
+
+  .wrap{
+    background-color: red;
+    font: 16px "黑体";
+  }
+
+  .wrap p{
+    background-color: green;
+    /*font: 20px/1.5em "宋体";*/ /* 些时行高是: 30px = 20 *1.5 */
+    font: 20px/150% "宋体";
+
+  }
+  </style>
+</head>
+<body>
+  <p class="demo">向雷峰同志学习!</p>
+  <p>好好学习天天向上!<p>
+  <div class="wrap">
+    <span>我是父div的中文本内容</span>
+    <p>我是子段落标签中的内容</p>
+    <span>我是父div的中文本内容</span>
+  </div>
+</body>
+</html>
