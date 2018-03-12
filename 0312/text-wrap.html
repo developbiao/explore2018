@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+  div{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 1px solid black;
+  }
+
+  .normal{
+    white-space: normal;
+  }
+
+  .nowrap{
+    white-space: nowrap;
+  }
+
+  .pre{
+    white-space: pre;
+  }
+
+  /*
+  white-space
+  Normal： 正常显示，如果宽度不够进行拆行显示
+  Nowrap: 即使超过盒子的宽度，也继续显示
+  Pre: 保留原来的格式
+  */
+
+  </style>
+</head>
+<body>
+  <div class="normal">
+    Hi, IT google AI is very good! for feature!
+  </div>
+  <div class="nowrap">
+    Hi, IT google AI is very good! for feature!
+  </div>
+  <div class="pre">
+    Hi, IT google AI is very good!
+     for feature!
+  </div>
+</body>
+</html>
