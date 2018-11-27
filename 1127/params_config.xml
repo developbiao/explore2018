@@ -1,0 +1,14 @@
+<params>
+	<param>
+		<key>username</key>
+		<value>TolySwift</value>
+	</param>
+	<param>
+		<key>age</key>
+		<value>22</value>
+	</param>
+	<param>
+		<key>Hobby</key>
+		<value>Sing</value>
+	</param>
+</params>
