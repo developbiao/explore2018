@@ -23,6 +23,7 @@ class Person {
 $person = new Person('Bob', 44);
 $person->setId(123);
 
+// shallow copy
 $person2 = clone($person);
 
 print_r($person2);
